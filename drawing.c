@@ -15,7 +15,8 @@ int main(){
     SelectObject(screen, greenBrush); // for selecting the brush and making it available for the program to use it
 
     for(int counter = 0;; counter +=10) {
-        Rectangle(screen, 40 + counter, 40 + counter, 400 + counter, 400 + counter); // dimensions of screen
+        This loop is to animate the rectangle on x axis
+        Rectangle(screen, 40 + counter, 40, 400, 400); // dimensions of screen
         Sleep(30); // sleeping a little to see the drawing occurring
 
     }

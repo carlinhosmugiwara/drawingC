@@ -1,1 +1,1 @@
-Drawing on C using windows.h, Gdi32.lib and User32.lib
+Drawing on Windows with C using windows.h, Gdi32.lib and User32.lib

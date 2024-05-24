@@ -4,7 +4,7 @@
 /*put Gdi32.lib for it to compile successfully for the Rectangle function
   put User32.lib for it to compile successfully for the GetDC function
 
-  format cl lib1 lib2 libn file.c
+  When using libraries like this the format of the command to compile is: cl lib1 lib2 libn file.c
 
 
 */
